@@ -4,3 +4,6 @@ Potential Algorithm to base code off of:  https://poseidon01.ssrn.com/delivery.p
 
 
 Ant Alogrithm: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=4273512
+
+
+Simulated Annealing: https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.93.2222&rep=rep1&type=pdf
