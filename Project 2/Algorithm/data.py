@@ -2,21 +2,25 @@
 from collections import namedtuple
 from random import choices
 
-Items = namedtuple('Item', 'benefit, weight')
+Items = namedtuple('Item', 'benefit, weights')
 Knapsack = namedtuple('Knapsack', 'capacity')
 
 
-def get_data(number_items, number_knapsacks):
-    benefits = choices(range(1, 3), k=number_items)
-    weights = choices(range(2, 10), k=number_items)
-    capacities = choices(range(50, 100), k=number_knapsacks)
-
+def get_data(benefits: list, weights: list, capacities: list):
     items = []
 
     for i in range(0, len(benefits)):
-        items.append(Items(benefits[i], weights[i]))
+        items.append(Items(benefits[i], list()))
+
+    for j in range(0, len(weights)):
+        for i in range(0, len(weights[0])):
+            items[i].weights.append(weights[j][i])
 
     knapsacks = []
     for j in range(0, len(capacities)):
         knapsacks.append(Knapsack(capacities[j]))
     return items, knapsacks
+
+
+def read_data(path):
+    pass
