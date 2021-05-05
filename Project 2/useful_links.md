@@ -9,5 +9,6 @@ Genetic Algorithm: https://link.springer.com/content/pdf/10.1023/A:1009642405419
 
 Ant Alogrithm: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=4273512
 
+Aproximate Dynamic Programing: https://www.mit.edu/~dbertsim/papers/Stochastic%20Networks/An%20Approximate%20Dynamic%20Programming%20Approach%20to%20Multi-dimensional%20Knapsack%20Problems.pdf
 
 Simulated Annealing: https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.93.2222&rep=rep1&type=pdf
